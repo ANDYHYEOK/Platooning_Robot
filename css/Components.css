@@ -1,0 +1,89 @@
+.camera {
+  background-color: #d3d3d3;
+  grid-row: 2/6;
+  grid-column: 12/20;
+  border-radius: 3vh;
+}
+
+.cam {
+  height: 100%;
+  width: 100%;
+}
+
+#mapDiv {
+  background-color: #d3d3d3;
+  grid-row: 1/11;
+  grid-column: 1/21;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.controlUi {
+  grid-row: 7/11;
+  grid-column: 1/21;
+  stroke: #fff;
+  background: transparent;
+  border: 2px solid #726b6b; /* Add a white border */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a slight shadow effect */
+
+  display: flex;
+  /* grid-template-columns: 370px 20px, 800px; */
+}
+
+.map2d {
+  width: 23%;
+  height: 95%;
+  background-image: url("../img/map2d.png");
+  background-color: transparent;
+  z-index: 3;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 2vh;
+}
+#map2d {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2.18vh;
+  margin-left: 2vh;
+}
+.robotStates {
+  display: flex;
+  width: 49%;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  /* display: grid;
+  grid-template-columns: 790px, 110px; */
+  margin-right: 2vh;
+}
+
+.robotInfo {
+  width: 79%;
+  height: 100%;
+  background-image: url("../img/robotStates.png");
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0.9vh;
+  margin-right: 1.2vh;
+}
+
+.robotVideo {
+  z-index: 3;
+  background-image: url("../img/robotVideo.png");
+  width: 21%; /* Adjust the width as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+  margin-left: 1vh;
+}
+.commandTools {
+  width: 24%;
+  height: 95%;
+  z-index: 3;
+  background-image: url("../img/commandTools.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 1vh;
+}

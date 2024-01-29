@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="node_modules/roslib/build/roslib.js"></script>
+    <script src="node_modules/three/build/three.js"></script>
+    <script src="node_modules/ros3d/build/ros3d.js"></script>
+    <!-- <script src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script> -->
+    <script src="gui_modules/eventEmitter2.js"></script>
+    <script src="gui_modules/three.js"></script>
+
+    <script src="gui_modules/EaselJS.js"></script>
+    <script src="gui_modules/ros2d.js"></script>
+    <link rel="stylesheet" href="./css/App.css" />
+    <link rel="stylesheet" href="./css/Components.css" />
+    <!-- <link rel="stylesheet" href="nav.css" /> -->
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+    <div class="controlUi">
+      <div class="map2d">
+        <div id="map2d"></div>
+      </div>
+      <div class="robotStates">
+        <div class="robotInfo"></div>
+        <div class="robotVideo"></div>
+      </div>
+      <div class="commandTools"></div>
+    </div>
+
+    <!-- <button id="go">GO</button> -->
+    <!-- <button id="wayPoint1" class="wayPoint">wayPoint1</button> -->
+    <!-- <button id="wayPoint2" class="wayPoint">wayPoint2</button>
+    <button id="wayPoint3" class="wayPoint">wayPoint3</button>
+    <button id="wayPoint4" class="wayPoint">wayPoint4</button> -->
+  </body>
+  <script src="js/renderer.js"></script>
+  <script src="js/control_ui/map2d.js"></script>
+  <!-- <script src="js/path_draw.js"></script>
+  <script src="js/goal.js"></script>
+  <script src="./js/WayPoint.js"></script> -->
+</html>

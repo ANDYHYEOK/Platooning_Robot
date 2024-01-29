@@ -1,0 +1,16 @@
+html {
+  background-color: #9b9b9b;
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
